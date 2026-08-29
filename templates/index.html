@@ -427,7 +427,7 @@
     <div class="slider" id="slider">
       <!-- Principal (funciones 1) -->
       <div class="card" aria-label="Rifa principal">
-        <img src="{{ url_for('static', filename='img/partida.jpg') }}" alt="Imagen rifa 1" draggable="false">
+        <img src="{{ url_for('img_data', filename='partida.jpg') }}" alt="Imagen de la partida" draggable="false">
         <div class="THIS">{{ premio }}</div>
         <button class="buy" id="buy-button-1" onclick="buyTickets()">COMPRAR TICKETS 🎫</button>
         <button class="verify" onclick="verifyTicket()">Verificar Ticket 🎫</button>
