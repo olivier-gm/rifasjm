@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/static/img/logo.jpeg" type="image/x-icon">
+    <link rel="shortcut icon" href="/static/img/logo.png" type="image/x-icon">
     <title>Gracias por tu compra</title>
     <style>
         body {
@@ -54,7 +54,7 @@
 <body>
     <div class="container">
         <img src="{{ url_for('img_data', filename='partida2.jpg') }}" alt="Gracias por participar">
-        <h1>¡Bienvenido a RifasJ&M!, {{ nombre }}!</h1>
+        <h1>¡Bienvenido a Super Rifas Gema!, {{ nombre }}!</h1>
         <p>Estos son los tickets que compraste:</p>
         <ul>
             {% for ticket in tickets %}

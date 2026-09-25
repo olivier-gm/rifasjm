@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" href="/static/img/logo.jpeg" />
-  <title>RifasJ&M</title>
+  <link rel="shortcut icon" href="/static/img/logo.png" />
+  <title>Super Rifas Gema</title>
   <style>
     :root {
       --card-w: 300px;
@@ -403,7 +403,7 @@
       top5.forEach(item => table.appendChild(item.row));
     });
   </script>
-  <div><img class="logo" src="/static/img/logo.jpeg" alt=""></div>
+  <div><img class="logo" src="/static/img/logo.png" alt=""></div>
 
   <div class="table-responsive">
     <table class="table table-hover table-dark align-middle text-center">
@@ -451,7 +451,8 @@
     </div>
 
     <div class="whatsapp-menu">
-      <a href="https://wa.me/+584221599709" target="_blank">Soporte +584221599709</a>
+      <a href="https://wa.me/+584242561307" target="_blank">Soporte 0424-2561307</a>
+      <a href="https://wa.me/+584146069189" target="_blank">Soporte 0414-6069189</a>
     </div>
   </div>
 
@@ -476,7 +477,8 @@
     // Ocultar comprar en principal si no disponible
     (function () {
       const enunciado = "{{ enunciado }}".trim();
-      const disponibilidad = {{ disponibilidad }};
+      const disponibilidad = {{ disponibilidad }
+    };
     if (enunciado === "No disponible" || disponibilidad === 0) {
       const btn = document.getElementById("buy-button-1");
       if (btn) btn.style.display = "none";
