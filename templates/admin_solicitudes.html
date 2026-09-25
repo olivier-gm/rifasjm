@@ -215,7 +215,7 @@
 
 
                             // Construir el mensaje
-                            const mensaje = `Gracias por participar en 'Super Rifas Gema'!\nAquí está el link para ver tus tickets: https://www.rifasjm.site${link}`;
+                            const mensaje = `Gracias por participar en 'Super Rifas Gema'!\nAquí está el link para ver tus tickets: https://rifasjm.site${link}`;
 
                             // Crear el URL para abrir WhatsApp con el mensaje
                             const whatsappURL = `https://wa.me/${telefono}?text=${encodeURIComponent(mensaje)}`;
@@ -250,13 +250,13 @@
 
                             // Crea un campo de texto temporal para copiar el link
                             const tempInput = document.createElement("input");
-                            tempInput.value = `https://www.rifasjm.site${link}`;
+                            tempInput.value = `https://rifasjm.site${link}`;
                             document.body.appendChild(tempInput);
                             tempInput.select();
                             document.execCommand("copy");
                             document.body.removeChild(tempInput);
 
-                            alert("Link copiado al portapapeles: " + `https://www.rifasjm.site${link}`);
+                            alert("Link copiado al portapapeles: " + `https://rifasjm.site${link}`);
                         }
                     </script>
                     {% endfor %}
